@@ -23,7 +23,7 @@ export default class Chart extends React.Component {
         <Line
           style={{ height: "10px", width: "10px" }}
           data={state}
-          options={{ maintainAspectRatio: false }}
+          // options={{ maintainAspectRatio: false }}
           // options={{
           //   maintainAspectRatio: false,
           //   title: {

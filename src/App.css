@@ -1,4 +1,4 @@
 .main-layout {
   display: grid;
-  grid-template-rows: 4rem 80rem 4rem;
+  grid-template-rows: 4rem auto 4rem;
 }

@@ -15,12 +15,16 @@ const SideBar = () => {
           src="/static/images/avatar/1.jpg"
           sx={{ width: 225, height: 225 }}
         />
-        <h2>Piyush Joshi</h2>
-        <p>piyush-joshi530</p>
+        <div className="name">
+          <h2>Piyush Joshi</h2>
+          <p>piyush-joshi530</p>
+        </div>
         {/* <Button variant="outlined">EditProfile</Button> */}
         <Button variant="outlined">EditProfile</Button>
-        <GroupIcon />
-        Follower Following
+        <div className="follower">
+          <GroupIcon />
+          <p>Follower</p> <p>Following</p>
+        </div>
       </div>
     </>
   );

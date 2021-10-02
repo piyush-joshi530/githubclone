@@ -21,22 +21,32 @@
   position: relative;
 } */
 
-.sidebar1 h2,
-p {
+name {
+  margin-top: 5%;
   align-self: flex-start;
-  margin-left: 50px;
+  margin-left: 10%;
 }
-Button {
+
+.sidebar1 Button {
   width: 75%;
   border-radius: 7%;
   color: rgb(37, 37, 37);
   background-color: beige;
-  margin: 50px;
+  margin: 10% 10% 0 0;
+}
+
+.sidebar1 GroupIcon {
+  align-self: flex-start;
+}
+
+.follower {
+  display: flex;
+  align-self: flex-start;
 }
 /* .container {
   margin-left: 5%;
 } */
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 720px) {
   #avater {
     height: 95.33px;
     width: 95.33px;
@@ -60,8 +70,9 @@ Button {
     display: none;
   }
   Button {
-    width: 90%;
+    width: 100%;
     align-content: center;
+    border-radius: 7%;
   }
   /* .id {
     margin-left: 5px;
@@ -72,5 +83,13 @@ Button {
   } */
   h2 {
     text-align: start;
+  }
+
+  .sidebar1 Button {
+    width: 75%;
+    border-radius: 7%;
+    color: rgb(37, 37, 37);
+    background-color: beige;
+    margin: 4% 4% 2% 0;
   }
 }
